@@ -29,3 +29,30 @@ body{
     padding: 16px;
     margin: 16px;
 }
+#form {
+    text-align: center;
+}
+#form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#form form label {
+    font-size: 24px;
+    padding: 8px;
+    font-weight: 500;
+}
+#form form input[type = date] {
+    font-size: 24px;
+    padding: 8px;
+    margin: 8px;
+    width: 40%;
+    font-weight: 500;
+}
+#form form input[type = submit] {
+    font-size: 24px;
+    padding: 8px;
+    width: 40%;
+    font-weight: 600;
+}
