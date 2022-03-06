@@ -12,3 +12,20 @@ body{
     align-items: center;
     justify-content: center !important;
 }
+#intro{
+    text-align: center;
+    padding: 64px;
+}
+#intro h1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 16px;
+    margin: 16px;
+}
+#intro p{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 16px;
+    margin: 16px;
+}
