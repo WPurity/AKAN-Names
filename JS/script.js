@@ -6,6 +6,10 @@ const namesOfMales = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwa
 const namesOfFemales = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 entryData.addEventListener("click", function (stopRepeat) {
     stopRepeat.preventDefault();
+    const receivedDate = document.getElementById("date").value;
+    const year = date.getFullYear();
+    const day = date.getDay();
+    const date = new Date(receivedDate);
 
     })
     
