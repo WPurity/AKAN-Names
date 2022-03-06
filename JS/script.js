@@ -1,0 +1,1 @@
+const entryData = document.getElementById("submit");
