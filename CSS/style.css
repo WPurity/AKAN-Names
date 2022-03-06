@@ -14,20 +14,18 @@ body{
 }
 #intro{
     text-align: center;
-    padding: 64px;
+    padding: 64px 64px 16px 64px;
 }
 #intro h1{
     font-size: 64px;
     font-weight: 600;
     line-height: 20px;
     padding: 16px;
-    margin: 16px;
 }
 #intro p{
     font-size: 24px;
     font-weight: 500;
     padding: 16px;
-    margin: 16px;
 }
 #form {
     text-align: center;
@@ -39,9 +37,10 @@ body{
 
 }
 #form form label {
-    font-size: 24px;
+    font-size: 28px;
     padding: 8px;
-    font-weight: 500;
+    font-weight: 700;
+    color: #14213D;
 }
 #form form input[type = date] {
     font-size: 24px;
@@ -55,4 +54,10 @@ body{
     padding: 8px;
     width: 40%;
     font-weight: 600;
+}
+#content {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
 }
