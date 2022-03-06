@@ -58,8 +58,9 @@ body{
 #content {
     text-align: center;
     font-size: 56px;
-    font-weight: 700;
-    color: white;
+    font-weight: 600;
+    color: #FCA311;
+    margin-top: 32px;
 }
 select {
     font-size: 24px;
