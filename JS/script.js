@@ -10,7 +10,6 @@ entryData.addEventListener("click", function (stopRepeat) {
     const year = date.getFullYear();
     const day = date.getDay();
     const date = new Date(receivedDate);
-    const year = date.getFullYear();
 const day = date.getDay();
 for(let choice of inputGender){
 if (choice.value === "male"){
